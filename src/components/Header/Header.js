@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 const ContainerHeader = styled.div`
+  min-height: 150px;
+  margin-bottom: 20px;
   background-color: #fff;
-  height: 150px;
-  margin: 20px;
   border-radius: 10px;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
   display: flex;
@@ -20,11 +20,11 @@ const ContainerHeader = styled.div`
   }
 
   @media (max-width: 614px) {
-    height: 300px;
+    min-height: 300px;
     flex-direction: column;
   }
 `
-const ContainerHeaderLeft = styled.section`
+const ContainerHeaderLeft = styled.div`
   display: flex;
   align-items: flex-start;
   align-items: center;
@@ -34,7 +34,7 @@ const ContainerHeaderLeft = styled.section`
   }
 `
 
-const ContainerHeaderRight = styled.section`
+const ContainerHeaderRight = styled.div`
   & .links {
     margin: 20px;
     padding: 10px;
@@ -54,7 +54,7 @@ const HeaderContainer = () => {
     <ContainerHeader>  
       <ContainerHeaderLeft>
         <section className="image-container">
-          <img className="imagePFP" src="images/pfp.gif" alt="profile pfp" />
+          <img className="imagePFP" src="images/EduRuizPFP.jpg" alt="profile pfp" />
         </section>
         <section className="text-container">
           <h1>Edu Ruiz</h1>
