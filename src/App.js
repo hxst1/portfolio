@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 
 const App = () => {
   return (
-     <Routes>
+     <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<HomePage />} />
         <Route path="projects" element={<Projects />} />
       </Routes>
