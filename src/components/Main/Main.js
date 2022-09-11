@@ -14,25 +14,25 @@ const ContainerMainLeft = styled.div`
   width: 50%;
   margin-right: 10px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: var(--main-bg-color);
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
-  overflow: scroll;
+  overflow: auto;
 
   ::-webkit-scrollbar {
     width: 16px;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--main-bg-color);
   }
 
   ::-webkit-scrollbar-track {
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--main-bg-color);
 
   }
 
   ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    border: 4px solid #fff;
+    border: 4px solid var(--main-bg-color);
     background-color: #888;
   }
 
@@ -42,15 +42,17 @@ const ContainerMainLeft = styled.div`
   }
 
   & h1 {
-    margin-top: 5px;
-    margin-left: 10px;
+    color: var(--main-color);
+    margin-top: 20px;
+    margin-left: 20px;
     text-align: left;
     text-decoration: underline;
     font-size: 20px;
   }
   
   & p {
-    margin: 10px;
+    color: var(--main-color);
+    margin: 20px;
     margin-bottom: 20px;
     text-align: left;
   }
@@ -58,8 +60,10 @@ const ContainerMainLeft = styled.div`
   & .social-media {
     display: flex;
     flex-direction: column;
+    margin: 10px;
 
     & h1 {
+      color: var(--main-color);
       margin: 15px;
       text-align: left;
       text-decoration: underline;
@@ -69,11 +73,11 @@ const ContainerMainLeft = styled.div`
     & a {
       margin: 10px;
       padding: 5px;
-      border: 2px solid #000;
+      border: 2px solid var(--main-color);
       border-radius: 10px;
       text-decoration: none;
       text-align: center;
-      color: black;
+      color: var(--main-color);
     }
   }
 
@@ -99,7 +103,7 @@ const ContainerMainRight = styled.div`
     height: 50%;
     margin-bottom: 10px;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--main-bg-color);
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
     display: flex;
     flex-direction: column;
@@ -113,6 +117,7 @@ const ContainerMainRight = styled.div`
     }
 
     & h1 {
+      color: var(--main-color);
       margin: 10px;
       text-align: left;
       text-decoration: underline;
@@ -120,6 +125,7 @@ const ContainerMainRight = styled.div`
     }
 
     & p {
+      color: var(--main-color);
       margin: 5px;
       margin-left: 10px;
     }
@@ -129,7 +135,7 @@ const ContainerMainRight = styled.div`
     height: 50%;
     margin-top: 10px;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--main-bg-color);
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
     display: flex;
     flex-direction: column;
@@ -137,6 +143,7 @@ const ContainerMainRight = styled.div`
     align-items: center;
     
     & h1 {
+      color: var(--main-color);
       margin: 15px;
       font-size: 20px;
       text-align: left;
@@ -144,10 +151,10 @@ const ContainerMainRight = styled.div`
     }
 
     & .pdf-button {
-      border: 2px solid #000;
+      border: 2px solid var(--main-color);
       border-radius: 10px;
       padding: 10px;
-      color: #000;
+      color: var(--main-color);
     }
   }
 `
