@@ -26,6 +26,7 @@ body::-webkit-scrollbar-button {
   
 #root{
   height: 100vh;
+  overflow: hidden;
   padding: 20px;
   display: flex;
   flex-direction: column;
