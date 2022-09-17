@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1b93703d.css",
-    "main.js": "/portfolio/static/js/main.df979ad1.js",
+    "main.css": "/portfolio/static/css/main.cda6465d.css",
+    "main.js": "/portfolio/static/js/main.d25eaad0.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/media/roboto-mono-all-400-normal.woff": "/portfolio/static/media/roboto-mono-all-400-normal.615f3bbd43698e99d078.woff",
@@ -12,12 +12,12 @@
     "static/media/roboto-mono-greek-400-normal.woff2": "/portfolio/static/media/roboto-mono-greek-400-normal.95e7a382e12921ef32ee.woff2",
     "static/media/roboto-mono-vietnamese-400-normal.woff2": "/portfolio/static/media/roboto-mono-vietnamese-400-normal.a9575edb558363648d81.woff2",
     "index.html": "/portfolio/index.html",
-    "main.1b93703d.css.map": "/portfolio/static/css/main.1b93703d.css.map",
-    "main.df979ad1.js.map": "/portfolio/static/js/main.df979ad1.js.map",
+    "main.cda6465d.css.map": "/portfolio/static/css/main.cda6465d.css.map",
+    "main.d25eaad0.js.map": "/portfolio/static/js/main.d25eaad0.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b93703d.css",
-    "static/js/main.df979ad1.js"
+    "static/css/main.cda6465d.css",
+    "static/js/main.d25eaad0.js"
   ]
 }
