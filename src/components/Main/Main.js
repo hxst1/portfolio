@@ -13,9 +13,12 @@ const ContainerMain = styled.div`
 const ContainerMainLeft = styled.div`
   width: 50%;
   margin-right: 10px;
+  margin-bottom: 20px;
   border-radius: 10px;
   background-color: var(--main-bg-color);
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+  padding-top: 20px;
+  padding-bottom: 20px;
   overflow: auto;
 
   ::-webkit-scrollbar {
@@ -84,12 +87,14 @@ const ContainerMainLeft = styled.div`
  @media (max-width: 800px) {
     width: 100%;
     height: 100%;
+    margin-bottom: 0;
   }
 `
 
 const ContainerMainRight = styled.div`
   width: 50%;
   margin-left: 10px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   
@@ -166,14 +171,12 @@ const MainContainer = () => {
         <h1>About Me</h1>
         <p>Me llamo Edu y desde que tengo memoria he sido un apasionado de la informática y la ciberseguridad. A los 16 años comencé a estudiar ciberseguridad de forma autodidacta. </p>
         <p>Estuve practicando mucho en plataformas controladas como HackTheBox y quedándome hasta la madrugada sin parar de practicar, hasta que decidí dar un paso al mundo real y llegué a reportar una vulnerabilidad de Lliurex a la Comunidad Valenciana.</p>
-        <p>Poco a poco se me fue despertando una gran pasión por la programación y empecé a crear scripts con bash y python. Después de mucha investigación, conocí un Bootcamp Fullstack para poder desarrollarme profesionalmente como programador. En ISDI Coders estuve realizando proyectos diarios donde aprendí las habilidades necesarias para poder afrontar los proyectos frontend y backend semanales. Finalmente, realicé un proyecto final utilizando como tecnologías Next.js, TypeScript, StyledComponents, Node.js, Express y MongoDB, por supuesto siempre aplicando los principios SOLID, código limpio y escalable. </p>
+        <p>Poco a poco se me fue despertando una gran pasión por la programación y empecé a crear scripts con bash y python. Después de mucha investigación, cursé un Bootcamp Fullstack para poder desarrollarme profesionalmente como programador. En ISDI Coders realicé proyectos diarios donde aprendí las habilidades necesarias para poder afrontar los proyectos frontend y backend semanales. Finalmente, realicé un proyecto final utilizando como tecnologías Next.js, TypeScript, StyledComponents, Node.js, Express y MongoDB, por supuesto siempre aplicando los principios SOLID, código limpio y escalable. </p>
         <p>Gracias a las más de 1000 horas de programación en el Bootcamp y a todas las habilidades adquiridas en los últimos años, me siento totalmente capacitado para poder seguir desarrollándome tanto personal como profesionalmente.</p>
         <section className="social-media">
           <h1>Social Media</h1>
           <a href="https://www.linkedin.com/in/edu-ruiz-cantos/" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="https://github.com/hxst1" target="_blank" rel="noreferrer">GitHub</a>        
-          <a href="https://discord.com/users/398174691027714059" target="_blank" rel="noreferrer">Discord</a>
-          <a href="https://www.instagram.com/hxst1/" target="_blank" rel="noreferrer">Instagram</a>
           <a href="https://twitter.com/_hxst" target="_blank" rel="noreferrer">Twitter</a>
           <a href="https://app.hackthebox.com/profile/240822" target="_blank" rel="noreferrer">HackTheBox</a>
         </section>   
