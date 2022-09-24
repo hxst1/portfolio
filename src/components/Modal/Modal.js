@@ -37,6 +37,15 @@ const ContainerModal = styled.div`
     font-size: 22px;
     margin: 10px;
     color: #000;
+    :hover{
+      animation: spin 2s infinite;
+
+      @keyframes spin {
+        0%{transform: rotate(0deg);}
+        50% {transform: rotate(180deg);}
+        100% {transform: rotate(360deg);}
+      }
+    }
   }
 
   @media (max-width: 614px) {
