@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import styled from "styled-components"
-import ImgWithFallback from "../ImgWithFallback/ImgWithFallback"
 import Modal from "../Modal/Modal"
 
 const ContainerHeader = styled.div`
@@ -105,12 +104,8 @@ const HeaderContainer = () => {
       <FontAwesomeIcon onClick={() => setShow(!show)} className="Icon-modal-open" icon={faGear} />
       <Modal setShow={setShow} show={show}/>
       <ContainerHeaderLeft>
-        <section className="image-container">
-          <ImgWithFallback
-            src="images/EduRuizPFP.webp"
-            fallback="images/EduRuizPFP.jpg"
-            alt="profile pfp"
-          />
+        <section className="image-container">     
+          <img className="imagePFP" src="portfolio/images/EduRuizPFP.jpg" alt="profile pfp" />
         </section>
         <section className="text-container">
           <h1>Edu Ruiz</h1>
