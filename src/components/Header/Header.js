@@ -105,7 +105,7 @@ const HeaderContainer = () => {
       <Modal setShow={setShow} show={show}/>
       <ContainerHeaderLeft>
         <section className="image-container">     
-          <img className="imagePFP" src="portfolio/images/EduRuizPFP.jpg" alt="profile pfp" />
+          <img className="imagePFP" src="images/EduRuizPFP.jpg" alt="profile pfp" />
         </section>
         <section className="text-container">
           <h1>Edu Ruiz</h1>
