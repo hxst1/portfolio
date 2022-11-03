@@ -4,6 +4,7 @@ import { useState } from "react"
 import ImgWithFallback from "../ImgWithFallback/ImgWithFallback"
 import { Link } from "react-router-dom"
 import styled from "styled-components"
+import ImgWithFallback from "../ImgWithFallback/ImgWithFallback"
 import Modal from "../Modal/Modal"
 
 const ContainerHeader = styled.div`
@@ -39,9 +40,6 @@ const ContainerHeader = styled.div`
 
   & .imagePFP{
     height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    object-fit: cover;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
   }
 
@@ -57,6 +55,13 @@ const ContainerHeaderLeft = styled.div`
 
   & .image-container{
     margin-right: 7px;
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   & .text-container{
@@ -108,6 +113,7 @@ const HeaderContainer = () => {
         <section className="image-container">     
           <ImgWithFallback
             src="images/EduRuizPFP.webp"
+            fallback="images/EduRuizPFP.jpeg"
             alt="profile pfp"
           />
         </section>
