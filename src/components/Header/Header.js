@@ -1,10 +1,10 @@
 import { faGear } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
-import ImgWithFallback from "../ImgWithFallback/ImgWithFallback"
 import { Link } from "react-router-dom"
 import styled from "styled-components"
 import Modal from "../Modal/Modal"
+import ImgWithFallback from "../ImgWithFallback/ImgWithFallback"
 
 const ContainerHeader = styled.div`
   min-height: 150px;
@@ -39,6 +39,9 @@ const ContainerHeader = styled.div`
 
   & .imagePFP{
     height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
   }
 
@@ -54,13 +57,6 @@ const ContainerHeaderLeft = styled.div`
 
   & .image-container{
     margin-right: 7px;
-    height: 120px;
-    width: 120px;
-    overflow: hidden;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   & .text-container{
