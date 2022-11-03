@@ -1,6 +1,7 @@
 import { faGear } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
+import ImgWithFallback from "../ImgWithFallback/ImgWithFallback"
 import { Link } from "react-router-dom"
 import styled from "styled-components"
 import ImgWithFallback from "../ImgWithFallback/ImgWithFallback"
@@ -112,7 +113,7 @@ const HeaderContainer = () => {
         <section className="image-container">     
           <ImgWithFallback
             src="images/EduRuizPFP.webp"
-            fallback="images/EduRuizPFP.jpg"
+            fallback="images/EduRuizPFP.jpeg"
             alt="profile pfp"
           />
         </section>
