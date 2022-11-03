@@ -4,7 +4,6 @@ import { useState } from "react"
 import ImgWithFallback from "../ImgWithFallback/ImgWithFallback"
 import { Link } from "react-router-dom"
 import styled from "styled-components"
-import ImgWithFallback from "../ImgWithFallback/ImgWithFallback"
 import Modal from "../Modal/Modal"
 
 const ContainerHeader = styled.div`
