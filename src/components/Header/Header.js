@@ -1,6 +1,7 @@
 import { faGear } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
+import ImgWithFallback from "../ImgWithFallback/ImgWithFallback"
 import { Link } from "react-router-dom"
 import styled from "styled-components"
 import Modal from "../Modal/Modal"
@@ -105,7 +106,10 @@ const HeaderContainer = () => {
       <Modal setShow={setShow} show={show}/>
       <ContainerHeaderLeft>
         <section className="image-container">     
-          <img className="imagePFP" src="images/EduRuizPFP.jpg" alt="profile pfp" />
+          <ImgWithFallback
+            src="images/EduRuizPFP.webp"
+            alt="profile pfp"
+          />
         </section>
         <section className="text-container">
           <h1>Edu Ruiz</h1>
