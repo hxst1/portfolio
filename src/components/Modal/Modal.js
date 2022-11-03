@@ -116,8 +116,8 @@ const Modal = ({show, setShow}) => {
     foreground: '#2B1A48'
   }
 
-  const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const [theme, setTheme] = useState(darkThemeMq ? dark : light);
+  const matchMediaTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [theme, setTheme] = useState(matchMediaTheme ? dark : light);
   let root = document.querySelector(':root');
 
   const themeSwitcher = (color) => {
@@ -126,16 +126,16 @@ const Modal = ({show, setShow}) => {
         localStorage.setItem('theme', JSON.stringify(light))
         setTheme(light)
         break;
-        case 'dark':
+      case 'dark':
         localStorage.setItem('theme', JSON.stringify(dark))
         setTheme(dark)
         break;
-        case 'night':
+      case 'night':
         localStorage.setItem('theme', JSON.stringify(night))
         setTheme(night)
         break;
       default:
-        break;
+        setTheme(matchMediaTheme ? dark : light)
     }
   }
 
@@ -149,7 +149,7 @@ const Modal = ({show, setShow}) => {
 
   return(
     <ContainerModal hidden={show}>
-    <FontAwesomeIcon onClick={() => setShow(!show)} className="Icon-modal-close" icon={faXmark} />
+    <FontAwesomeIcon data-testid="Xmark" onClick={() => setShow(!show)} className="Icon-modal-close" icon={faXmark} />
       <ContainerButtons>
       <h1>Themes Switcher</h1>
       <ul>
