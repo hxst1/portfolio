@@ -106,7 +106,7 @@ const HeaderContainer = () => {
 
   return(
     <ContainerHeader>
-      <FontAwesomeIcon onClick={() => setShow(!show)} className="Icon-modal-open" icon={faGear} />
+      <FontAwesomeIcon data-testid="Gear" onClick={() => setShow(!show)} className="Icon-modal-open" icon={faGear} />
       <Modal setShow={setShow} show={show}/>
       <ContainerHeaderLeft>
         <section className="image-container">     
