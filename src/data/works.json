@@ -18,7 +18,7 @@
     "projects": [
       {
         "name": "SkadeIoT",
-        "description": "Project 1 description."
+        "description": "Skade is an integrated system for the management and monitoring of winter road conditions on highways and roads. It includes fleet management via GPS, real-time analysis of weather conditions, tracking of stations and irrigation systems, and an advanced permission system for users. Its focus is on efficiency and safety in road infrastructure during the winter."
       },
       {
         "name": "Soter4",
@@ -27,12 +27,12 @@
       {
         "name": "Magnet",
         "client": "Avallain",
-        "description": "Magnet is an Avallain learning platform solution offering powerful learning, product, and user management features that are immediately deployable. It has a fully intuitive user interface, developed with cutting-edge features that integrate seamlessly with Avallain's leading e-learning authoring tool, Avallain Author. The content is hosted and reliably managed in an independent e-learning authoring tool, allowing for its reuse without limitations and instant publishing on the learning platform powered by Avallain Magnet."
+        "description": "Magnet is a comprehensive learning platform by Avallain that provides robust management tools for learning content, products, and users. It features an intuitive interface with advanced features that work in conjunction with Avallain Author, a leading e-learning authoring tool. Content can be hosted, managed, and reused flexibly, with the capability for immediate publication on the Magnet platform."
       },
       {
         "name": "Richmond Learning Platform",
         "client": "Avallain",
-        "description": "The Richmond Learning Platform, powered by Avallain Author and Avallain Unity, is a digital learning platform that has significantly improved its digital content to facilitate and reduce access costs for students all over Latin America, especially during the global health crisis. The platform focuses on improving English language skills, a crucial aspect in a globalized world, and offers high-quality and affordable learning materials, enabling students to continue their studies safely during quarantine."
+        "description": "The Richmond Learning Platform is a digital education platform enhanced by Avallain Author and Avallain Unity. It aims to make learning more accessible and affordable for Latin American students, particularly during the global health crisis. The platform concentrates on enhancing English language proficiency, providing high-quality, cost-effective materials, and allowing students to pursue their education remotely during quarantine."
       }
     ]
   },
@@ -46,21 +46,21 @@
     "projects": [
       {
         "name": "Domestika",
-        "description": "Project 1 description."
+        "description": "Domestika is an online platform for creative learning, offering a variety of courses taught by experts. It started as a forum in Spain and now is based in San Francisco, standing out for its focus on creative areas such as software, crafts, and illustration."
       }
     ]
   },
   "pureibizaradio": {
     "image": "img/ibizaradio.png",
     "name": "Pure Ibiza Radio",
-    "position": "Freelance",
+    "position": "Frontend Developer - Freelance",
     "date": "2018-2019",
-    "description": "Description of the web development project.",
+    "description": "It was my first job as a Developer, which posed a great challenge since I had never worked with React Native before. Despite this, I decided to tackle the project with determination. The experience ended successfully: the app was published on the App Store.",
     "technologies": ["React native"],
     "projects": [
       {
         "name": "Pure Ibiza Radio",
-        "description": "Project 1 description."
+        "description": "Pure Ibiza Radio is a station focused on electronic music and the islands of Ibiza and Formentera. With over 25 years in the electronic scene, it aims to connect listeners with music, blending established figures and emerging talents to maintain its essence and continuous evolution."
       }
     ]
   }

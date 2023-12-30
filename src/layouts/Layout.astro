@@ -26,14 +26,21 @@ const { title } = Astro.props;
 </html>
 <style is:global>
 	@font-face {
+		font-family: 'Geist';
+		src: url('/fonts/Geist-Regular.woff2') format('woff2');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
 		font-family: 'GeistMono';
-		src: url('/fonts/Geist.Mono/GeistMono-Regular.woff2') format('woff2');
+		src: url('/fonts/GeistMono-Regular.woff2') format('woff2');
 		font-weight: normal;
 		font-style: normal;
 		font-display: swap;
 	}
 	html {
-		font-family: "GeistMono" ,system-ui, sans-serif;
+		font-family: "Geist" ,system-ui, sans-serif;
 		background: #13151a;
 		background-size: 224px;
 		color-scheme: dark light;
@@ -60,4 +67,13 @@ const { title } = Astro.props;
 					transform: scale(1.5);
 			}
 	}
+
+	@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 </style>

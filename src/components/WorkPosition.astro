@@ -28,7 +28,7 @@ let href = title.replace(/\s+/g, '').toLowerCase();
         <h4 class="text-xl font-bold text-white">{title}</h4>
         <span class="absolute right-0 top-0 transform group-hover:scale-110 transition-transform" set:html={getIcon("more")}></span>
       </div>
-      <p class="text-sm text-gray-200 mt-1 flex items-center">Description</p>
+      <p class="text-sm text-gray-200 mt-1 flex items-center">{description}</p>
     </a>
   </section>
 )}
