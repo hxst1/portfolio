@@ -1,0 +1,33 @@
+---
+import HeaderButtons from "./HeaderButtons.astro";
+import { getIcon } from "../utils/getIcon.js";
+// icons from https://tablericons.com/
+---
+
+<header class="py-8 px-5 mx-auto max-w-5xl lg:py-8 lg:px-6">
+    <div class="flex justify-center items-center">
+        <div class="flex items-center">
+            <HeaderButtons nav="#about" set:html={getIcon('about', "About")} />
+            <HeaderButtons nav="#works" set:html={getIcon('jobs', "Jobs")} />
+            <HeaderButtons nav="#projects" set:html={getIcon('projects', "Projects")} />
+            <HeaderButtons nav="#links" set:html={getIcon('links', "Links")} />
+        </div>
+    </div>
+</header>
+
+<style>
+  header {
+    animation: slideDown 0.3s ease-out;
+  }
+  @keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+</style>

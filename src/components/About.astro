@@ -1,0 +1,21 @@
+---
+  const { pfp, idRef } = Astro.props
+---
+
+<section id={idRef} class="min-h-screen flex items-center justify-center">
+  <div class="bg-indigo-900/80 rounded-xl shadow-md shadow-white/40	flex-col md:flex-row flex items-center justify-center">
+    <img src={pfp} alt="Edu Avatar" class="rounded-full shadow-md shadow-black mx-10 mb-10 mt-10 md:mr-0 md:mt-0 md:mb-0 h-40 md:h-72" />
+    <div class="m-10">
+      <h1 class="text-4xl text-white mb-2">About me</h1>
+      <p class="text-white mb-2">
+        Hi there! I'm Edu, a lifelong enthusiast of computer science and cybersecurity. I began studying cybersecurity on my own at the age of 16 and soon discovered my passion for programming.
+      </p>
+      <p class="text-white mb-2">
+        I love creating innovative solutions and have experience working with technologies such as Next.js, TypeScript, StyledComponents, Node.js, Express, and MongoDB, always adhering to principles of clean and scalable code.
+      </p>
+      <p class="text-white">
+        I have devoted over 1,000 hours to programming and feel ready to continue growing and developing both personally and professionally. I'm always eager to learn and explore new technologies to keep improving!
+      </p>
+    </div>
+  </div>
+</section>

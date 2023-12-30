@@ -1,0 +1,17 @@
+---
+import About from '../components/About.astro';
+import Home from '../components/Home.astro';
+import Layout from '../layouts/Layout.astro';
+import Works from '../components/Works.astro';
+import WorkPosition from '../components/WorkPosition.astro';
+---
+
+<Layout title="Portfolio/home">
+	<Home title="Hello, I'm Edu Ruiz!" subtitle="Fullstack Developer" />
+	<About idRef="about" pfp="/img/yo.png" />
+	<Works idRef="works" title="Work Experience">
+		<WorkPosition left title="LeadingDev" dateStart="Oct. 2022" dateEnd="Current" time="2022" description="Descripción del Trabajo 1" />
+		<WorkPosition title="Domestika" dateStart="May. 2022" dateEnd="Jun. 2022" time="2022" description="Descripción del Trabajo 2" />
+		<WorkPosition left title="Pure Ibiza Radio" dateStart="Apr. 2022" dateEnd="May. 2022" time="2022" description="Descripción del Trabajo 3" />
+	</Works>
+</Layout>

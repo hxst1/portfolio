@@ -1,0 +1,67 @@
+{
+  "leadingdev": {
+    "image": "img/leadingdev.png",
+    "name": "LeadingDev",
+    "position": "Fullstack Developer",
+    "date": "2020-2023",
+    "description": "Detailed description of the role and responsibilities.",
+    "technologies": [
+      "React",
+      "Ruby",
+      "Ruby on Rails",
+      "CoffeeScript",
+      "Sass",
+      "MySQL",
+      "PostgreSQL",
+      "Bootstrap"
+    ],
+    "projects": [
+      {
+        "name": "SkadeIoT",
+        "description": "Project 1 description."
+      },
+      {
+        "name": "Soter4",
+        "description": "Project 2 description."
+      },
+      {
+        "name": "Magnet",
+        "client": "Avallain",
+        "description": "Magnet is an Avallain learning platform solution offering powerful learning, product, and user management features that are immediately deployable. It has a fully intuitive user interface, developed with cutting-edge features that integrate seamlessly with Avallain's leading e-learning authoring tool, Avallain Author. The content is hosted and reliably managed in an independent e-learning authoring tool, allowing for its reuse without limitations and instant publishing on the learning platform powered by Avallain Magnet."
+      },
+      {
+        "name": "Richmond Learning Platform",
+        "client": "Avallain",
+        "description": "The Richmond Learning Platform, powered by Avallain Author and Avallain Unity, is a digital learning platform that has significantly improved its digital content to facilitate and reduce access costs for students all over Latin America, especially during the global health crisis. The platform focuses on improving English language skills, a crucial aspect in a globalized world, and offers high-quality and affordable learning materials, enabling students to continue their studies safely during quarantine."
+      }
+    ]
+  },
+  "domestika": {
+    "image": "img/domestika.png",
+    "name": "Domestika",
+    "position": "Frontend Developer",
+    "date": "2019-2020",
+    "description": "Description of the course taught.",
+    "technologies": ["React", "Sass", "Scrum"],
+    "projects": [
+      {
+        "name": "Domestika",
+        "description": "Project 1 description."
+      }
+    ]
+  },
+  "pureibizaradio": {
+    "image": "img/ibizaradio.png",
+    "name": "Pure Ibiza Radio",
+    "position": "Freelance",
+    "date": "2018-2019",
+    "description": "Description of the web development project.",
+    "technologies": ["React native"],
+    "projects": [
+      {
+        "name": "Pure Ibiza Radio",
+        "description": "Project 1 description."
+      }
+    ]
+  }
+}
