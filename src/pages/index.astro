@@ -21,5 +21,5 @@ const { pathname } = Astro.url;
 	</Works>
 	<Bento />
 	<Contact />
-	{pathname && <a href="#home" class="fixed right-10 bottom-10 bg-black/60 shadow-sm shadow-black rounded-full p-2" set:html={getIcon('rowTop')} />}
+	{pathname && <a href="#home" aria-label="row top" class="fixed right-10 bottom-10 bg-black/60 shadow-sm shadow-black rounded-full p-2" set:html={getIcon('rowTop')} />}
 </Layout>
