@@ -2,20 +2,20 @@
   const { pfp, idRef } = Astro.props
 ---
 
-<section id={idRef} class="min-h-screen flex items-center justify-center">
+<section id={idRef} class="min-h-screen pt-24 nd:pt-0 flex items-center justify-center">
   <div class="bg-black/60 shadow-xl shadow-black/60 rounded-xl flex-col md:flex-row flex items-center justify-center">
     <img src={pfp} alt="Edu Avatar" class="rounded-full mx-10 mb-10 mt-10 md:mr-0 md:mt-0 md:mb-0 h-40 md:h-72" />
     <div class="m-10">
       <h1 class="text-4xl text-white mb-2">About me</h1>
       <p class="text-white mb-2">
-        Hi there! I'm Edu, a lifelong enthusiast of computer science and cybersecurity. I began studying cybersecurity on my own at the age of 16 and soon discovered my passion for programming.
+        Since my teenage years, I've been deeply fascinated with computer science and cybersecurity. My journey began at 16, leading me to a specialization in programming where I focus on crafting innovative solutions.
       </p>
-      <p class="text-white mb-2">
-        I love creating innovative solutions and have experience working with technologies such as Next.js, TypeScript, StyledComponents, Node.js, Express, and MongoDB, always adhering to principles of clean and scalable code.
+      <p class="text-white mb-10">
+        My toolkit includes technologies like Next.js, TypeScript, Ruby on Rails, Node.js, and MongoDB. I pride myself on writing clean, scalable code. Over 1,000 hours of programming have fueled my professional and personal growth, continually driving me to learn and explore new technologies.
       </p>
-      <p class="text-white">
-        I have devoted over 1,000 hours to programming and feel ready to continue growing and developing both personally and professionally. I'm always eager to learn and explore new technologies to keep improving!
-      </p>
+      <a href="#contact" class="border-b">
+        Contact!
+      </a>
     </div>
   </div>
 </section>

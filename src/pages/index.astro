@@ -5,6 +5,10 @@ import Layout from '../layouts/Layout.astro';
 import Works from '../components/Works.astro';
 import WorkPosition from '../components/WorkPosition.astro';
 import Bento from '../components/Bento.astro';
+import Contact from '../components/Contact.astro';
+import { getIcon } from '../utils/getIcon';
+
+const { pathname } = Astro.url;
 ---
 
 <Layout title="Portfolio/home" description="Full Stack Developer - Web developer. Based in Alicante, España. Specialized in creating unique applications.">
@@ -16,4 +20,6 @@ import Bento from '../components/Bento.astro';
 		<WorkPosition left title="Pure Ibiza Radio" dateStart="Apr. 2022" dateEnd="May. 2022" time="2022" description="Frontend Developer - Freelance" />
 	</Works>
 	<Bento />
+	<Contact />
+	{pathname && <a href="#home" class="fixed right-10 bottom-10 bg-black/60 shadow-sm shadow-black rounded-full p-2" set:html={getIcon('rowTop')} />}
 </Layout>
