@@ -3,6 +3,6 @@
 const { nav } = Astro.props
 ---
 
-<a href=`/${nav}` class=`${Astro.props.class} text-white mx-2 md:mx-3 hover:text-indigo-400 flex scale-105 sm:scale-100 transition`>
+<a href=`/${nav}` aria-label="icon header" class=`${Astro.props.class} text-white mx-2 md:mx-3 hover:text-indigo-400 flex scale-105 sm:scale-100 transition`>
   <slot />
 </a>
