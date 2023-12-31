@@ -1,0 +1,86 @@
+---
+import BentoItem from "./BentoItem.astro";
+---
+
+<section
+  id="projects"
+  class={`
+    min-h-screen
+    w-full max-w-[1400px]
+    grid lg:grid-cols-10 auto-rows-[30rem] gap-4
+    mx-auto px-6 pt-28 md:px-12 md:pt-28  lg:px-20 lg:pt-28
+  `}
+>
+  <BentoItem target="_blank" href="https://github.com/hxst1" class="col-span-10 md:col-span-4" title="my chatt">
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full
+        h-full group-hover:scale-110 transition-scale duration-1000
+        ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover bg-no-repeat bg-indigo-950 group-hover:bg-transparent blur-[4px] group-hover:blur-0 -z-10"
+      style="background-image: url('/img/mychat.png')"
+    >
+    </div>
+
+    <p
+      slot="content"
+      class="text-base md:text-lg max-w-xl"
+      set:text="NextJS, Socket.io"
+    />
+  </BentoItem>
+  <BentoItem
+    target="_blank"
+    href="https://github.com/hxst1"
+    class="col-span-10 md:col-span-6"
+    title="notes4me" subtitle="Markdown Editor"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full
+    h-full group-hover:scale-110 transition-scale duration-1000
+    ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover bg-no-repeat bg-teal-950 group-hover:bg-transparent blur-[4px] group-hover:blur-0 -z-10"
+      style="background-image: url('/img/notes4me.png')"
+    >
+    </div>
+    <p
+      slot="content"
+      class="text-base md:text-lg max-w-xl"
+      set:text="NextJS, CSS Modules"
+    />
+  </BentoItem>
+  <BentoItem
+    target="_blank"
+    href="https://hikarilove.app"
+    class="col-span-10 md:col-span-6"
+    title="Hikari"
+    subtitle="Discord Bot"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full
+        h-full group-hover:scale-110 transition-scale duration-1000
+        ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover bg-no-repeat bg-cyan-950 group-hover:bg-transparent blur-[4px] group-hover:blur-0 -z-10"
+      style="background-image: url('/img/hikarilove.png')"
+    >
+    </div>
+    <p
+      slot="content"
+      class="text-base md:text-lg max-w-xl"
+      set:text="Discord.js, MongoDB, NodeJS"
+    />
+  </BentoItem>
+  <BentoItem href="/" class="col-span-10 md:col-span-4" title="Portfolio">
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full
+        h-full group-hover:scale-110 transition-scale duration-1000
+        ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover bg-no-repeat bg-violet-950 group-hover:bg-transparent blur-[4px] group-hover:blur-0 -z-10"
+      style="background-image: url('/img/portfolio.png')"
+    >
+    </div>
+    <p
+      slot="content"
+      class="text-base md:text-lg max-w-xl"
+      set:text="AstroJS, TailwindCSS"
+    />
+  </BentoItem>
+</section>
