@@ -18,7 +18,7 @@ export function getStaticPaths() {
     </div>
     <div class="bg-black/60 shadow-md shadow-black/60 rounded-lg w-full">
       <div class="p-8">
-        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{work.position}</div>
+        <div class="uppercase tracking-wide flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between"><p class="text-sm text-indigo-500 font-semibold">{work.position}</p> <time datetime={work.time} class="text-xs text-white mb-5 sm:mb-0">{work.dateStart} - {work.dateEnd}</time></div>
         <h2 class="block mt-1 text-xl leading-tight font-medium text-white hover:underline">{work.name}</h2>
         <p class="mt-2 text-gray-500">{work.description}</p>
         <div class="mt-4">

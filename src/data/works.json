@@ -3,8 +3,10 @@
     "image": "img/leadingdev.webp",
     "name": "LeadingDev",
     "position": "Fullstack Developer",
-    "date": "2020-2023",
-    "description": "Detailed description of the role and responsibilities.",
+    "time": "2020,2023",
+    "dateStart": "Oct. 2022",
+    "dateEnd": "Current",
+    "description": "At LeadingDev, I have experienced significant professional growth, engaging in innovative and challenging projects. My responsibilities encompass developing end-to-end solutions, ranging from interface design to backend implementation, with a constant focus on continuous improvement and embracing new technologies. I have closely collaborated with multidisciplinary teams to deliver products that not only meet but exceed our clients' expectations.",
     "technologies": [
       "React",
       "Ruby",
@@ -22,7 +24,7 @@
       },
       {
         "name": "Soter4",
-        "description": "Project 2 description."
+        "description": "The company specializes in consulting and technological innovation in global security, providing advanced and customized solutions in cybersecurity and physical security to protect organizations in an interconnected digital environment."
       },
       {
         "name": "Magnet",
@@ -40,7 +42,9 @@
     "image": "img/domestika.webp",
     "name": "Domestika",
     "position": "Frontend Developer",
-    "date": "2019-2020",
+    "time": "2022-2022",
+    "dateStart": "May. 2022",
+    "dateEnd": "Jun. 2022",
     "description": "Description of the course taught.",
     "technologies": ["React", "Sass", "Scrum"],
     "projects": [
@@ -54,7 +58,9 @@
     "image": "img/ibizaradio.webp",
     "name": "Pure Ibiza Radio",
     "position": "Frontend Developer - Freelance",
-    "date": "2018-2019",
+    "time": "2022-2022",
+    "dateStart": "Apr. 2022",
+    "dateEnd": "May. 2022",
     "description": "It was my first job as a Developer, which posed a great challenge since I had never worked with React Native before. Despite this, I decided to tackle the project with determination. The experience ended successfully: the app was published on the App Store.",
     "technologies": ["React native"],
     "projects": [
