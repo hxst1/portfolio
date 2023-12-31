@@ -1,6 +1,6 @@
 {
   "leadingdev": {
-    "image": "img/leadingdev.png",
+    "image": "img/leadingdev.webp",
     "name": "LeadingDev",
     "position": "Fullstack Developer",
     "date": "2020-2023",
@@ -37,7 +37,7 @@
     ]
   },
   "domestika": {
-    "image": "img/domestika.png",
+    "image": "img/domestika.webp",
     "name": "Domestika",
     "position": "Frontend Developer",
     "date": "2019-2020",
@@ -51,7 +51,7 @@
     ]
   },
   "pureibizaradio": {
-    "image": "img/ibizaradio.png",
+    "image": "img/ibizaradio.webp",
     "name": "Pure Ibiza Radio",
     "position": "Frontend Developer - Freelance",
     "date": "2018-2019",
