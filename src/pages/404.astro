@@ -1,10 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { getIcon } from "../utils/getIcon";
 ---
+
 <Layout title="Not Found" description="404 Error — this page was not found">
   <div class="min-h-[calc(100vh-128px)] flex flex-col items-center justify-center">
-    <h1 class="text-3xl text-white font-bold">404</h1>
-    <p class="text-2xl text-white">Page {} not found</p>
-    <a href="/" class="text-white text-1xl mt-10 w-40 bg-black/70 p-5 rounded-2xl shadow hover:shadow-white transition hover:duration-300">Go back</a>
+    <h1 class="text-3xl mb-1 text-white font-bold">~ 404 ~</h1>
+    <p class="text-2xl text-white">{"Page {} not found"}</p>
+    <a href="/" class="group text-white text-1xl mt-10 w-40 bg-black/70 p-5 rounded-2xl shadow hover:shadow-white transition hover:duration-300">
+      <span set:html={getIcon("disconnected", "Go back", "right")} class="group-hover:hidden flex items-center justify-between"></span>
+      <span set:html={getIcon("connected", "Go back", "right")} class="hidden group-hover:flex items-center justify-between"></span>
+    </a>
   </div>
 </Layout>
