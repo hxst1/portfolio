@@ -1,5 +1,6 @@
 ---
 import BentoItem from "./BentoItem.astro";
+import Pill from "./Pill.astro";
 ---
 
 <section
@@ -20,12 +21,13 @@ import BentoItem from "./BentoItem.astro";
       style="background-image: url('/img/mychat.webp')"
     >
     </div>
-
-    <p
+    <div
       slot="content"
-      class="text-base md:text-lg max-w-xl"
-      set:text="NextJS, Socket.io"
-    />
+      class="flex flex-wrap"
+    >
+      <Pill iconName="nextjs" name="NextJS" ></Pill>
+      <Pill iconName="socketio" name="Sockets.io" ></Pill>
+    </div>
   </BentoItem>
   <BentoItem
     target="_blank"
@@ -41,11 +43,13 @@ import BentoItem from "./BentoItem.astro";
       style="background-image: url('/img/notes4me.webp')"
     >
     </div>
-    <p
+    <div
       slot="content"
-      class="text-base md:text-lg max-w-xl"
-      set:text="NextJS, CSS Modules"
-    />
+      class="flex flex-wrap"
+    >
+      <Pill iconName="nextjs" name="NextJS" ></Pill>
+      <Pill iconName="cssmodules" name="CSS Modules" ></Pill>
+    </div>
   </BentoItem>
   <BentoItem
     target="_blank"
@@ -62,11 +66,14 @@ import BentoItem from "./BentoItem.astro";
       style="background-image: url('/img/hikarilove.webp')"
     >
     </div>
-    <p
+    <div
       slot="content"
-      class="text-base md:text-lg max-w-xl"
-      set:text="Discord.js, MongoDB, NodeJS"
-    />
+      class="flex flex-wrap"
+    >
+      <Pill iconName="discordjs" name="DiscordJS" ></Pill>
+      <Pill iconName="mongodb" name="MongoDB" ></Pill>
+      <Pill iconName="nodejs" name="NodeJS" ></Pill>
+    </div>
   </BentoItem>
   <BentoItem href="#home" class="col-span-10 md:col-span-4" title="Portfolio">
     <div
@@ -77,10 +84,12 @@ import BentoItem from "./BentoItem.astro";
       style="background-image: url('/img/portfolio.webp')"
     >
     </div>
-    <p
+    <div
       slot="content"
-      class="text-base md:text-lg max-w-xl"
-      set:text="AstroJS, TailwindCSS"
-    />
+      class="flex flex-wrap"
+    >
+      <Pill iconName="astrojs" name="AstroJS" ></Pill>
+      <Pill iconName="tailwindcss" name="TailwindCSS" ></Pill>
+    </div>
   </BentoItem>
 </section>

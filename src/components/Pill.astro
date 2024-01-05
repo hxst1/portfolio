@@ -1,0 +1,7 @@
+---
+import { getIcon } from "../utils/getIcon";
+
+const { iconName, name } = Astro.props
+---
+
+<p class="flex mr-2 mt-2 bg-white text-black rounded-2xl justify-start px-2 items-center text-xs" set:html={getIcon(iconName, name, 'right')}></p>
